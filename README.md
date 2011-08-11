@@ -22,8 +22,13 @@ Include html_dom_parser.js file in html page.
 
     var htmlContent = "<html><head><title>Iframe HTML Dom Parser</title></head><body><div id='first_div'>aa</div><div>bb</div><div>cc</div></body></html>";
 				
-		HTMLDomParser.createIFrame(iframeId, callBackFunOnIFrameLoad);
-		var doc = HTMLDomParser.parseHTMLString(htmlContent);
+    HTMLDomParser.createIFrame(iframeId, callBackFunOnIFrameLoad);
+    var doc = HTMLDomParser.parseHTMLString(htmlContent);
+    
+    //Now, we can use the all browser dom provided functions
+    var allDivs = iframeDoc.getElementsByTagName("div");
+	  var firstDiv = iframeDoc.getElementById("first_div");
+    
     </script>
 
 
