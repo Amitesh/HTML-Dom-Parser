@@ -1,4 +1,3 @@
-
 HTML Dom Parser 
 =========================
 HTML Dom Parser will parse the html content inside the iframe and provide the document object.
@@ -14,15 +13,16 @@ gist url : https://gist.github.com/1128275
 
 Examples
 ---------------------
-<script>
-var callBackFunOnIFrameLoad = function(){};
-var iframeId = "my_parser_iframe";
 
-var htmlContent = "<html><head><title>Iframe HTML Dom Parser</title></head><body><div id='first_div'>aa</div><div>bb</div><div>cc</div></body></html>";
+    <script>
+    var callBackFunOnIFrameLoad = function(){};
+    var iframeId = "my_parser_iframe";
+
+    var htmlContent = "<html><head><title>Iframe HTML Dom Parser</title></head><body><div id='first_div'>aa</div><div>bb</div><div>cc</div></body></html>";
 				
 		HTMLDomParser.createIFrame(iframeId, callBackFunOnIFrameLoad);
 		var doc = HTMLDomParser.parseHTMLString(htmlContent);
-</script>
+    </script>
 
 
 About Me
