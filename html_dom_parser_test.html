@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Dom Parser Test Page</title>
+				<meta charset="UTF-8">
+    		<script type="text/javascript" src="html_dom_parser.js"></script>
+				<script language="JavaScript" type="text/javascript">
+            <!--
+						
+						function onIframeLoad(){
+							//console.log('loaded....');
+							alert('iframe loaded!');
+						}
+						
+						function parseHTML(){
+							var htmlContent = "<html><head><title>Iframe HTML Dom Parser</title></head><body><div id='first_div'>aa</div><div>bb</div><div>cc</div></body></html>";
+							
+							HTMLDomParser.createIFrame("my_parser_iframe", onIframeLoad);
+							var doc = HTMLDomParser.parseHTMLString(htmlContent);
+							
+							//console.log(doc.title);
+							alert('title :' + doc.title);
+						}
+
+            //-->
+        </script>
+    </head>
+    <body onload="parseHTML();">
+    </body>
+</html>
