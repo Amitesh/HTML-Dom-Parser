@@ -8,8 +8,9 @@ HTML Dom Parser will parse the html content inside the iframe and provide the do
 Browser's inbuild DOMParser() method only parse the xml and it gives error 
 while parsing html content (Which has html tags and html entities etc) 
 
-XML parse error explanation gist
-gist url : https://gist.github.com/1128275
+XML parse error explanation gist.
+
+github gist url : https://gist.github.com/1128275
 
 Examples
 ---------------------
