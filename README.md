@@ -12,8 +12,9 @@ XML parse error explanation gist.
 
 github gist url : https://gist.github.com/1128275
 
-Examples
+Example
 ---------------------
+Include html_dom_parser.js file in html page.
 
     <script>
     var callBackFunOnIFrameLoad = function(){};
