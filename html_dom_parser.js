@@ -68,7 +68,7 @@ var HTMLDomParser = function (){
 			    iframe.id 		= iframeId;
 			    iframe.src 		= 'about:blank';
 			    iframe.onload = onloadCallBack || function(){};
-			    //iframe.style.visibility = "hidden";
+			    iframe.style.visibility = "hidden";
 			
 			    document.body.appendChild(iframe);
 		    }
